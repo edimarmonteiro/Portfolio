@@ -1,0 +1,29 @@
+
+
+.sobremim p{
+    color:rgb(43, 12, 71);
+    flex-wrap: wrap;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -290px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 430px){
+    .sobremim p{
+        color:rgb(43, 12, 71);
+        flex-wrap: wrap;
+        width: 280px;
+        height: 150px;
+        position: absolute;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -400px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

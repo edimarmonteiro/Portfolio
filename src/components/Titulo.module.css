@@ -1,0 +1,22 @@
+body{
+    margin: 0 0;
+}
+
+.titulo h1 {
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(43, 12, 71);
+
+    filter: drop-shadow(8px 8px 4px darkmagenta);
+}
+
+@media screen and (max-width: 430px){
+    .titulo h1 {
+        width: 260px;
+        text-align: center;
+        flex-wrap: wrap;
+        color: rgb(43, 12, 71);
+    
+        filter: drop-shadow(8px 8px 4px darkmagenta);
+    }
+}

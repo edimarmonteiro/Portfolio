@@ -1,0 +1,241 @@
+
+
+/*Mexendo na imagem*/
+.div_img{
+    margin-top: -20px;
+    background-color: rgb(43, 12, 71);
+    max-width: 220px;
+    height: 300px;
+    margin-left: 30px;
+    position: absolute;
+    
+    box-shadow:
+        4.6px 5.4px 59.6px rgba(0, 0, 0, 1),
+        11.6px 13.6px 74.8px rgba(0, 0, 0, 0.886),
+        23.7px 27.6px 87.5px rgba(0, 0, 0, 0.769),
+        48.9px 56.9px 99.8px rgba(0, 0, 0, 0.644),
+        134px 156px 112px rgba(0, 0, 0, 0.482);
+
+
+}
+.div_img img{
+    height: 230px;
+    width: 200px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.div_img ul{
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+    padding-top: 9px;
+
+}
+.div_img li{
+    color: darkmagenta;
+    cursor: pointer;
+    margin: 0 1em;
+    font-size: 1.5em;
+    
+}
+.div_img li:hover{
+    color: darkmagenta;
+}
+
+/*Mexendo no conteudo*/
+.apresentacao{
+
+    
+    background-color: darkmagenta;
+    margin-top: -5px;
+    height:350px;
+}
+/*Mexendo no Gif do desenvovedor*/
+
+.gifdev img{
+    position: absolute;
+    height: 250px;
+    padding-left: 70em;
+    padding-top: 95px;
+}
+
+
+/*Icones especial*/
+
+
+.decoracao ul{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+}
+.visual li{
+    color: mediumblue;
+    padding-left: 37.8em;
+    padding-top: 75px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.react li{
+    color: royalblue;
+    padding-left: 29.5em;
+    padding-top: 2px;
+    font-size: 35px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+
+.js li{
+    color: darkgoldenrod;
+    padding-left: 49.7em;
+    margin-top: -65px;
+    font-size: 25px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.html li{
+    color: chocolate;
+    padding-left: 34.5em;
+    margin-top: -40px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.css li{
+    color: blue;
+    padding-left: 41.4em;
+    margin-top: -60px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+
+}
+
+.react, .js{
+    margin: 0 .3em;
+}
+
+.html, .css{
+    margin: 0 .3em;
+}
+.apresentacao h5{
+    position: absolute;
+    padding-left: 54em;
+    padding-top: 39px;
+    color: rgba(231, 172, 21, 0.863);
+}
+/*Efeito da borda div mãe*/
+
+  
+
+
+
+
+
+
+/*CELULAR 430PX*/
+@media screen and (max-width: 430px){
+/*Mexendo na imagem*/
+.div_img{
+    margin-top: -13px;
+    background-color: rgb(43, 12, 71);
+    width: 140px;
+    height: 200px;
+    margin-left: 8px;
+    position: absolute;
+}
+.div_img img{
+    height: 150px;
+    width: 130px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.div_img ul{
+    display: flex;
+    list-style: none;
+    padding-left: 12px;
+    padding-top: 3px;
+
+}
+.div_img li{
+    color: darkmagenta;
+    cursor: pointer;
+    margin: 0 .4em;
+    font-size: 1.3em;
+    
+}
+.div_img li:hover{
+    color: darkmagenta;
+}
+
+/*Mexendo no conteudo*/
+.apresentacao{
+    max-width: 300px;
+    flex-wrap: wrap;
+    background-color: darkmagenta;
+    margin-top: 20px;
+    height:650px;
+}
+/*Mexendo no Gif do desenvovedor*/
+
+.gifdev img{
+    position: absolute;
+    height: 250px;
+    padding-left:190px;
+    margin-top:-80px;
+    width: 290px;
+}
+
+
+/*Icones especial*/
+
+
+.decoracao ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+}
+.visual li{
+    color: mediumblue;
+    padding-left: 9em;
+    padding-top: 5px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.react li{
+    color: royalblue;
+    padding-left: 6.4em;
+    padding-top: 110px;
+    font-size: 25px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+
+.js li{
+    color: darkgoldenrod;
+    padding-left: 10.5em;
+    margin-top: -50px;
+    font-size: 20px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.html li{
+    color: chocolate;
+    padding-left: 6em;
+    margin-top: -160px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+}
+.css li{
+    color: blue;
+    padding-left: 6em;
+    margin-top: -120px;
+    filter: drop-shadow(8px 8px rgb(43, 12, 71));
+
+}
+
+.react, .js{
+    margin: 0 .3em;
+}
+
+.html, .css{
+    margin: 0 .3em;
+}
+.apresentacao h5{
+    position: absolute;
+    padding-left: 3em;
+    padding-top: 200px;
+    color: rgba(224, 172, 51, 0.479);
+}
+/*Efeito da borda div mãe*/
+
+  
+}

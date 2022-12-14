@@ -1,0 +1,17 @@
+.img_carrosseis img{
+    width: 700px;
+    height: 400px;
+    margin-left: 350px;
+}
+  
+
+/*.img_carrosseis,.carousel-control-next{
+    right: 20%;
+    opacity: 1;
+      filter: invert(1);
+}
+.img_carrosseis, .carousel-control-prev{
+    left: 20%;
+    opacity: 1;
+    filter: invert(1);
+}*/

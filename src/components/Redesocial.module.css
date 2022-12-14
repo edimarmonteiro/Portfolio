@@ -1,0 +1,13 @@
+.social_img ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.social_img li{
+    cursor: pointer;
+    margin: 0 5em;
+    font-size: 30px;
+    padding-top: 290px;
+}
