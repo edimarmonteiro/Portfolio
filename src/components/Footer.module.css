@@ -1,5 +1,5 @@
 .Footer{
-    background-color: darkgray;
+    background-color: darkmagenta;
     height: 110px;
 }
 
@@ -18,10 +18,12 @@
 }
 
 .Footer p{
+    color: black;
     padding-top: 10px;
     text-align: center;
 }
 .Footer h6{
+    color: black;
     text-align: center;
     padding-top: -8px;
 }
