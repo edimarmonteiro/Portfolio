@@ -16,10 +16,10 @@ function Tecnologias(){
         <div className={styles.tecnologia}>
             <h1>Meus Conhecimentos</h1>
             <div className={styles.img_tec}>
-                <img id='mousemover' src={react_tec}/>
-                <img src={javascript_tec}/>
-                <img src={html_tec}/>
-                <img src={css_tec}/>
+                <img id='mousemover' src={react_tec}/>< p className={styles.Preact}>React.JS</p>
+                <img src={javascript_tec}/><p className={styles.Pjs} >JavaScript</p>
+                <img src={html_tec}/><p className={styles.Phtml}>Html5</p>
+                <img src={css_tec}/><p className={styles.Pcss}>Css3</p>
             </div>
         </div>
     )

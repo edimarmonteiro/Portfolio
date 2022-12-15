@@ -23,3 +23,26 @@
     ;
  
 }
+.tecnologia p{
+    position: absolute;
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Preact{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.Pjs{
+    margin-left: 510px;
+    margin-top: 60px;
+}
+.Phtml{
+    margin-left: 845px;
+    margin-top:60px;
+}
+.Pcss{
+    margin-left:1160px;
+    margin-top:60px;
+}

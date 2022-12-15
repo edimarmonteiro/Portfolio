@@ -17,7 +17,7 @@ function App() {
       <Apresentacao/>
       <Sobreeu/>
 
-      <Tecnologias/><br/><br/><br/>
+      <Tecnologias/><br/><br/><br/><br/>
       <Certificados/><br/><br/>
       <Contato/><br/><br/>
       <Footer/>
