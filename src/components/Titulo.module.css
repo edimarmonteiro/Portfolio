@@ -10,9 +10,10 @@ body{
     filter: drop-shadow(8px 8px 4px darkmagenta);
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 414px){
     .titulo h1 {
-        width: 260px;
+        width: 400px;
+        padding-top: 9px;
         text-align: center;
         flex-wrap: wrap;
         color: rgb(43, 12, 71);

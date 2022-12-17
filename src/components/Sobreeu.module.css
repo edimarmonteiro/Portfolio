@@ -13,16 +13,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 414px){
     .sobremim p{
         color:rgb(43, 12, 71);
         flex-wrap: wrap;
-        width: 280px;
+        width: 330px;
         height: 150px;
         position: absolute;
         text-align: center;
-        margin-left: 10px;
-        margin-top: -400px;
+        margin-left: 28px;
+        margin-top: -375px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }

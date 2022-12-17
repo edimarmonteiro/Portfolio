@@ -126,7 +126,7 @@
 
 
 /*CELULAR 430PX*/
-@media screen and (max-width: 430px){
+@media screen and (max-width: 414px){
 /*Mexendo na imagem*/
 .div_img{
     margin-top: -13px;
@@ -135,6 +135,14 @@
     height: 200px;
     margin-left: 8px;
     position: absolute;
+    border-radius: 20px;
+
+    box-shadow:
+    11.9px 13.3px 10.7px rgba(0, 0, 0, 0.9),
+    32.9px 36.8px 29.6px rgba(0, 0, 0, 0.571),
+    79.3px 88.6px 71.1px rgba(0, 0, 0, 0.42),
+    263px 294px 236px rgba(0, 0, 0, 0.278)
+  ;
 }
 .div_img img{
     height: 150px;
@@ -162,7 +170,7 @@
 
 /*Mexendo no conteudo*/
 .apresentacao{
-    max-width: 300px;
+    width: 412px;
     flex-wrap: wrap;
     background-color: darkmagenta;
     margin-top: 20px;
@@ -173,9 +181,9 @@
 .gifdev img{
     position: absolute;
     height: 250px;
-    padding-left:190px;
+    padding-left:270px;
     margin-top:-80px;
-    width: 290px;
+    width: 380px;
 }
 
 
@@ -189,13 +197,13 @@
 }
 .visual li{
     color: mediumblue;
-    padding-left: 9em;
+    padding-left: 14em;
     padding-top: 5px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .react li{
     color: royalblue;
-    padding-left: 6.4em;
+    padding-left: 9.5em;
     padding-top: 110px;
     font-size: 25px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
@@ -203,20 +211,20 @@
 
 .js li{
     color: darkgoldenrod;
-    padding-left: 10.5em;
+    padding-left: 14em;
     margin-top: -50px;
     font-size: 20px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .html li{
     color: chocolate;
-    padding-left: 6em;
+    padding-left: 10em;
     margin-top: -160px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .css li{
     color: blue;
-    padding-left: 6em;
+    padding-left: 10em;
     margin-top: -120px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 
@@ -231,7 +239,7 @@
 }
 .apresentacao h5{
     position: absolute;
-    padding-left: 3em;
+    padding-left: 6em;
     padding-top: 200px;
     color: rgba(224, 172, 51, 0.479);
 }

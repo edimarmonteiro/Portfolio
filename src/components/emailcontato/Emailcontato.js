@@ -13,7 +13,7 @@ function Emailcontato(){
     const [mensagem, setMensagem] = useState();
 
     function OnclikButao(){
-        alert('Mensagem enviada com sucesso. Muito obrigado, responderei o mais rápido possível')
+        alert('Mensagem enviada com sucesso. Muito obrigado, responderei o mais rápido possível!')
     }
     //Treabalhando com o from
     const Email = (e) => {
