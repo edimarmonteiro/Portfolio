@@ -46,3 +46,63 @@
     margin-left:1160px;
     margin-top:60px;
 }
+
+
+/*==========CELULAR===============*/
+
+
+
+@media screen and (max-width:414px){
+    .tecnologia h1{
+        text-align: center;
+        color: rgb(43, 12, 71);
+        filter: drop-shadow(8px 8px 4px darkmagenta);
+    }
+    
+    .img_tec img{
+        flex-direction: row;
+        height: 100px;
+        width: 120px;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-top: 60px;
+    
+        box-shadow:
+            1.6px 0.7px 0px rgba(0, 0, 0, 0.134),
+            3.7px 1.7px 0px rgba(0, 0, 0, 0.195),
+            6.5px 2.9px 0px rgba(0, 0, 0, 0.24),
+            10.3px 4.6px 0px rgba(0, 0, 0, 0.28),
+            15.8px 7.1px 0px rgba(0, 0, 0, 0.32),
+            24.7px 11.2px 0px rgba(0, 0, 0, 0.365),
+            41px 18.5px 0px rgba(0, 0, 0, 0.426),
+            82px 37px 0px rgba(0, 0, 0, 0.56)
+        ;
+    }
+
+    .tecnologia h1{
+     margin-top: 30px;
+    }
+    .tecnologia p{
+        position: absolute;
+        color: rgb(43, 12, 71);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .Preact{
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+    .Pjs{
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    .Phtml{
+        margin-left: 135px;
+        margin-top:30px;
+    }
+    .Pcss{
+        margin-left:315px;
+        margin-top:30px;
+    }
+}

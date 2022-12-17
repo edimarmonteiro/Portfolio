@@ -5,3 +5,9 @@
 
     filter: drop-shadow(8px 8px 4px darkmagenta);
 }
+
+@media screen and (max-width:414px){
+    .certificado h1{
+        margin-top: 15px;
+    }
+}

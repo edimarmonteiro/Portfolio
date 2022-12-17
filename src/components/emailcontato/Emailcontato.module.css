@@ -44,3 +44,56 @@
   
   
 }
+
+
+/*===========CELULAR=========*/
+
+@media screen and (max-width:414px){
+    .form_contato div{
+        background-color: darkmagenta;
+    }
+    .form_contato form{
+        padding-left: 30px;
+        background-color: darkmagenta;
+        height: 380px;
+    
+    }
+    .form_contato legend{
+        padding-left: 80PX;
+        color: goldenrod; 
+        filter: drop-shadow(4px 4px 4px goldenrod);
+    }
+    .form_contato input{
+        
+        display: flex;
+        width: 350px;
+        border-radius: 10px;
+        border-style: none;
+    }
+    /*.form_contato input::placeholder{
+        color: goldenrod; 
+        background-color: dimgray;
+    }*/
+    .form_contato textarea{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .butao{
+        height: 40px;
+        max-width: 160px;
+        margin-left: 90px;
+        padding-left: 20px;
+        background-color: rgb(43, 12, 71);
+        color: goldenrod; 
+    
+        box-shadow:
+        11.9px 13.3px 10.7px rgba(0, 0, 0, 0.9),
+        32.9px 36.8px 29.6px rgba(0, 0, 0, 0.571),
+        79.3px 88.6px 71.1px rgba(0, 0, 0, 0.42),
+        263px 294px 236px rgba(0, 0, 0, 0.278)
+      ;
+      
+      
+    }
+    
+}

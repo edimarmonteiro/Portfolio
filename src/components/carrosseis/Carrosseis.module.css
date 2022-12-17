@@ -4,14 +4,10 @@
     margin-left: 350px;
 }
   
-
-/*.img_carrosseis,.carousel-control-next{
-    right: 20%;
-    opacity: 1;
-      filter: invert(1);
+@media screen and (max-width:414px){
+    .img_carrosseis img{
+        width: 323px;
+        height: 210px;
+        margin-left: 45px;
+    } 
 }
-.img_carrosseis, .carousel-control-prev{
-    left: 20%;
-    opacity: 1;
-    filter: invert(1);
-}*/
