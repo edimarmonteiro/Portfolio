@@ -126,6 +126,17 @@
 
 
 /*CELULAR 430PX*/
+
+@media screen and (max-width:360px){
+    .apresentacao{
+        width: 360px;
+        flex-wrap: wrap;
+        background-color: darkmagenta;
+        margin-top: 20px;
+        height:650px;
+    }
+}
+
 @media screen and (max-width: 414px){
 /*Mexendo na imagem*/
 .div_img{
@@ -170,7 +181,7 @@
 
 /*Mexendo no conteudo*/
 .apresentacao{
-    width: 412px;
+    width: 390px;
     flex-wrap: wrap;
     background-color: darkmagenta;
     margin-top: 20px;
