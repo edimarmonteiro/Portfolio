@@ -39,16 +39,17 @@ function Emailcontato(){
                 <form action="" onSubmit={Email}>
                     <fieldset>
                         <legend>Envie-me um e-mail</legend>
-                        <input type='text' name='nome_usuario' id='nome_usuario' placeholder='Escreva Seu Nome'
+                        <input className={styles.se} type='text' name='nome_usuario' id='nome_usuario' placeholder='Escreva Seu Nome'
                         onChange={(e) => {setYouname(e.target.value);}} value={youname}
                         /><br/>
-                        <input type='text' name='my_email' ib='my_email' value='edimarfilho971@gmail.com'
+                        <input className={styles.g} type='text' name='my_email' ib='my_email' value='edimarfilho971@gmail.com'
                         /><br/>
                         <textarea cols='65' rows='5' name='uso_mensagem' id='uso_mensagem' placeholder='Escreva sua mensagem' 
                         onChange={(e) => {setMensagem(e.target.value);}} value={mensagem}
                         /><br/><br/>
                         <input className={styles.butao}
                          onClick={OnclikButao}
+                         id="butao_celular"
                          type='submit' 
                          value='Enviar Mensagem' />
                     </fieldset>
