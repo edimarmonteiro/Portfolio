@@ -126,10 +126,19 @@
 
 
 /*CELULAR 430PX*/
-
-@media screen and (max-width:360px){
+@media screen and (max-width:393px){
     .apresentacao{
-        width: 360px;
+        max-width: 393px;
+    }
+}
+@media screen and (max-width:390px){
+    .apresentacao{
+        max-width: 390px;
+    }
+}
+@media screen and (max-width:375px){
+    .apresentacao{
+        max-width: 375px;
         flex-wrap: wrap;
         background-color: darkmagenta;
         margin-top: 20px;
@@ -137,6 +146,14 @@
     }
 }
 
+@media screen and (max-width:360px){
+    .apresentacao{
+        max-width: 360px;
+    }
+    .gifdev img{
+        max-width:200px ;
+    }
+}
 @media screen and (max-width: 414px){
 /*Mexendo na imagem*/
 .div_img{
@@ -181,20 +198,28 @@
 
 /*Mexendo no conteudo*/
 .apresentacao{
-    width: 390px;
+    width: 414px;
     flex-wrap: wrap;
     background-color: darkmagenta;
     margin-top: 20px;
     height:650px;
 }
 /*Mexendo no Gif do desenvovedor*/
-
-.gifdev img{
+@media screen and (max-width:375px){
+    .gifdev img{
     position: absolute;
     height: 250px;
     padding-left:270px;
     margin-top:-80px;
-    width: 380px;
+    max-width: 370px;
+    }  
+}
+.gifdev img{
+    position: absolute;
+    height: 250px;
+    padding-left:250px;
+    margin-top:-80px;
+    width: 350px;
 }
 
 
@@ -208,13 +233,13 @@
 }
 .visual li{
     color: mediumblue;
-    padding-left: 14em;
+    padding-left: 12em;
     padding-top: 5px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .react li{
     color: royalblue;
-    padding-left: 9.5em;
+    padding-left: 8.8em;
     padding-top: 110px;
     font-size: 25px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
@@ -222,20 +247,20 @@
 
 .js li{
     color: darkgoldenrod;
-    padding-left: 14em;
+    padding-left: 13.4em;
     margin-top: -50px;
     font-size: 20px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .html li{
     color: chocolate;
-    padding-left: 10em;
+    padding-left: 9.1em;
     margin-top: -160px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 }
 .css li{
     color: blue;
-    padding-left: 10em;
+    padding-left: 9.1em;
     margin-top: -120px;
     filter: drop-shadow(8px 8px rgb(43, 12, 71));
 

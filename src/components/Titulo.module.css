@@ -12,6 +12,7 @@ body{
 
 @media screen and (max-width: 414px){
     .titulo h1 {
+        margin-left: -12px;
         width: 400px;
         padding-top: 9px;
         text-align: center;
@@ -19,5 +20,10 @@ body{
         color: rgb(43, 12, 71);
     
         filter: drop-shadow(8px 8px 4px darkmagenta);
+    }
+}
+@media screen and (max-width:360px){
+    .titulo h1{
+        margin-left: -20px;
     }
 }

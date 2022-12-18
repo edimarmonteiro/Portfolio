@@ -48,6 +48,35 @@
 
 /*===========CELULAR=========*/
 
+@media screen and (max-width:375px){
+    .form_contato input{
+        max-width: 310px;
+        margin-left: 11px;
+    }
+    .butao input{
+        max-width: 50px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .form_contato input{
+        max-width: 320px;
+    }
+    .form_contato textarea{
+        max-width: 320px;
+    }
+    .butao{
+        max-width: 70px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .form_contato input{
+        max-width: 305px;
+    }
+    
+}
+
 @media screen and (max-width:414px){
     .form_contato div{
         background-color: darkmagenta;
@@ -74,15 +103,24 @@
         color: goldenrod; 
         background-color: dimgray;
     }*/
+
+@media screen and (max-width:375px){
+        .form_contato textarea{
+            margin-left: 11px;
+            max-width:310px ;
+        }
+}
     .form_contato textarea{
         width: 350px;
         border-radius: 10px;
     }
+
     .butao{
         height: 40px;
         max-width: 160px;
-        margin-left: 90px;
+        margin-left: 9px;
         padding-left: 20px;
+        text-align: center;
         background-color: rgb(43, 12, 71);
         color: goldenrod; 
     
@@ -97,3 +135,4 @@
     }
     
 }
+

@@ -1,15 +1,8 @@
 
+
 .div_app {
 
     background-color: darkgrey;
 
 }
    
-@media screen and (max-width:360px){
-    
-.div_app {
-    max-width: 360px;
-    background-color: darkgrey;
-}
-   
-}

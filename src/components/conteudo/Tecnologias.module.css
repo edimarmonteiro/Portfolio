@@ -51,20 +51,31 @@
 /*==========CELULAR===============*/
 
 
-
 @media screen and (max-width:414px){
+
+
     .tecnologia h1{
         text-align: center;
         color: rgb(43, 12, 71);
         filter: drop-shadow(8px 8px 4px darkmagenta);
     }
-    
+
+/*@media screen and (max-width:375px){
     .img_tec img{
         flex-direction: row;
         height: 100px;
-        width: 120px;
+        max-width: 110px;
         border-radius: 30px;
-        margin-left: 20px;
+        margin-left: 5px;
+        margin-top: 60px;
+}   */
+
+    .img_tec img{
+        flex-direction: row;
+        height: 100px;
+        width: 105px;
+        border-radius: 30px;
+        margin-left: 10px;
         margin-top: 60px;
     
         box-shadow:
@@ -90,19 +101,19 @@
     }
     
     .Preact{
-        margin-left: 130px;
+        margin-left: 115px;
         margin-top: 30px;
     }
     .Pjs{
-        margin-left: 300px;
+        margin-left: 250px;
         margin-top: 30px;
     }
     .Phtml{
-        margin-left: 135px;
+        margin-left: 120px;
         margin-top:30px;
     }
     .Pcss{
-        margin-left:315px;
+        margin-left:275px;
         margin-top:30px;
     }
 }

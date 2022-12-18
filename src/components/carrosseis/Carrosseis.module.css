@@ -7,7 +7,31 @@
 @media screen and (max-width:414px){
     .img_carrosseis img{
         width: 323px;
+    
         height: 210px;
         margin-left: 45px;
     } 
+}
+
+@media screen and (max-width:393px){
+    .img_carrosseis img{
+        max-width: 310px;
+    }
+}
+@media screen and (max-width:390px){
+    .img_carrosseis img{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .img_carrosseis img{
+        max-width: 285px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .img_carrosseis img{
+        max-width: 275px;
+    }
 }
